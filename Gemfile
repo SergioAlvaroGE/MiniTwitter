@@ -40,8 +40,11 @@ group :development do
   gem 'web-console'
 end
 
-group :development, :test do # <<<< :development, not devlopment
+group :development, :test do
   gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
