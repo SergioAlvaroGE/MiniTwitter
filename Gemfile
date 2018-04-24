@@ -40,7 +40,7 @@ group :development do
   gem 'web-console'
 end
 
-group :development, :test do # <<<< :development, not devlopment
+group :development do # <<<< :development, not devlopment
   gem 'sqlite3'
 end
 
